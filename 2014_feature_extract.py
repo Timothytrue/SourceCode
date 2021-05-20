@@ -194,7 +194,7 @@ def sort_Data(file, low, high):
     print(feature[1])
     print(feature[2])
     print(feature[3])
-    f = open('D:/Work/RFID/RFID/特征/代码/DeepLearning/feature/v2/feature1.dat', 'wb')
+    f = open('D:/Work/RFID/RFID/特征/代码/DeepLearning/feature/v2/feature2.dat', 'wb')
     pickle.dump(feature, f) 
 
 
@@ -205,7 +205,7 @@ def sort_Data(file, low, high):
 
 
 if __name__ == '__main__':
-    file = 'D:/Work/RFID/RFID/特征/代码/DeepLearning/feature/1preamble.pickle'
+    file = 'D:/Work/RFID/RFID/特征/代码/DeepLearning/feature/2preamble.pickle'
     IQcommplex = getList(file)
     print(IQcommplex.shape)
     # get_Train_Test_Data(file, 0.015, 0.05)
@@ -218,4 +218,4 @@ if __name__ == '__main__':
     # print(cov[1])
     # print(cov[2])
 
-    sort_Data(file, 0.015, 0.04)
+    sort_Data(file, 0.02, 0.05)
