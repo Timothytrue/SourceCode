@@ -218,4 +218,4 @@ if __name__ == '__main__':
     # print(cov[1])
     # print(cov[2])
 
-    sort_Data(file, 0.02, 0.05)
+    sort_Data(file, 0.015, 0.038)
